@@ -1,9 +1,120 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.11">
   <diagram name="Page-1" id="7i_ycgFXeHgMoQNHifhE">
-    <mxGraphModel>
+    <mxGraphModel dx="1554" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-1" value="1. workflow的&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;问题的索引&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="68" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-2" value="0.workflow的输入节点检查，用于在保存之前" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="38" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-3" value="2. workflow的提示框的设计" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="98" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-4" value="待深入" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="10" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-5" value="现在需解决" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-6" value="2025/2/5" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="10" y="140" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-20" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=1;rounded=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="190" width="480" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-21" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-20">
+          <mxGeometry width="480" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-22" value="待解决" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-21">
+          <mxGeometry width="159" height="33" as="geometry">
+            <mxRectangle width="159" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-23" value="进度" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-21">
+          <mxGeometry x="159" width="162" height="33" as="geometry">
+            <mxRectangle width="162" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-24" value="备注" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-21">
+          <mxGeometry x="321" width="159" height="33" as="geometry">
+            <mxRectangle width="159" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-20">
+          <mxGeometry y="33" width="480" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-26" value="workflow的问题索引" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-25">
+          <mxGeometry width="159" height="32" as="geometry">
+            <mxRectangle width="159" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-27" value="0%" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-25">
+          <mxGeometry x="159" width="162" height="32" as="geometry">
+            <mxRectangle width="162" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-28" value="重要" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-25">
+          <mxGeometry x="321" width="159" height="32" as="geometry">
+            <mxRectangle width="159" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-20">
+          <mxGeometry y="65" width="480" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-30" value="workflow的效果测试" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-29">
+          <mxGeometry width="159" height="31" as="geometry">
+            <mxRectangle width="159" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-31" value="0%" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-29">
+          <mxGeometry x="159" width="162" height="31" as="geometry">
+            <mxRectangle width="162" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-32" value="重要" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-29">
+          <mxGeometry x="321" width="159" height="31" as="geometry">
+            <mxRectangle width="159" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-33" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-20">
+          <mxGeometry y="96" width="480" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-34" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-33">
+          <mxGeometry width="159" height="33" as="geometry">
+            <mxRectangle width="159" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-35" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-33">
+          <mxGeometry x="159" width="162" height="33" as="geometry">
+            <mxRectangle width="162" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-36" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-33">
+          <mxGeometry x="321" width="159" height="33" as="geometry">
+            <mxRectangle width="159" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-37" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-20">
+          <mxGeometry y="129" width="480" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-38" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-37">
+          <mxGeometry width="159" height="31" as="geometry">
+            <mxRectangle width="159" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-39" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-37">
+          <mxGeometry x="159" width="162" height="31" as="geometry">
+            <mxRectangle width="162" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IVN-jRzDVuUk2GZdeafm-40" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="IVN-jRzDVuUk2GZdeafm-37">
+          <mxGeometry x="321" width="159" height="31" as="geometry">
+            <mxRectangle width="159" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
