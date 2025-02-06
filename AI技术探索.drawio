@@ -170,9 +170,9 @@
         <mxCell id="ion_yS7d4o4E_soSJtq_-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.564;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ion_yS7d4o4E_soSJtq_-66" target="ion_yS7d4o4E_soSJtq_-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ion_yS7d4o4E_soSJtq_-82" value="资源需求" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;textShadow=0;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="340" y="160" width="110" height="30" as="geometry">
-            <mxRectangle x="340" y="160" width="140" height="120" as="alternateBounds" />
+        <mxCell id="ion_yS7d4o4E_soSJtq_-82" value="资源需求" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="140" height="120" as="geometry">
+            <mxRectangle x="340" y="160" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ion_yS7d4o4E_soSJtq_-83" value="1. 训练(一般用不上)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-82">
@@ -181,7 +181,7 @@
         <mxCell id="ion_yS7d4o4E_soSJtq_-84" value="2. 推理(一般使用云部署，价格可控)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-82">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ion_yS7d4o4E_soSJtq_-85" value="3. 调优" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-82">
+        <mxCell id="ion_yS7d4o4E_soSJtq_-85" value="3. 调优(云服务商的炼丹平台)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-82">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ion_yS7d4o4E_soSJtq_-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ion_yS7d4o4E_soSJtq_-37" target="ion_yS7d4o4E_soSJtq_-82">
@@ -193,11 +193,90 @@
         <mxCell id="ion_yS7d4o4E_soSJtq_-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ion_yS7d4o4E_soSJtq_-84" target="ion_yS7d4o4E_soSJtq_-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ion_yS7d4o4E_soSJtq_-92" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;调优解决方案&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. 全参微调(不太可能)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. LoRA(小规模定制)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3. Prefix tuning /Prompt Tuning&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4. RL/RLHF&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5. 蒸馏&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="760" y="137.6" width="180" height="120" as="geometry" />
+        <mxCell id="ion_yS7d4o4E_soSJtq_-94" value="应用场景适配" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;textShadow=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="550" y="257.6" width="140" height="140" as="geometry">
+            <mxRectangle x="340" y="320" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ion_yS7d4o4E_soSJtq_-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="ion_yS7d4o4E_soSJtq_-84" target="ion_yS7d4o4E_soSJtq_-92">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ion_yS7d4o4E_soSJtq_-95" value="1. 目标：客服、内容创作、数据分析、决策支持、知识管理等" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-94">
+          <mxGeometry y="30" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-96" value="2. 衡量指标(可控)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-94">
+          <mxGeometry y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-97" value="3. 嵌入业务流程：在现有的业务流程中" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-94">
+          <mxGeometry y="110" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ion_yS7d4o4E_soSJtq_-42" target="ion_yS7d4o4E_soSJtq_-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="220" />
+              <mxPoint x="290" y="320" />
+              <mxPoint x="520" y="320" />
+              <mxPoint x="520" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-100" value="定制化和微调" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;textShadow=0;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="340" y="380" width="110" height="30" as="geometry">
+            <mxRectangle x="340" y="380" width="140" height="220" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-101" value="1. 全参数微调(不太可能)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-100">
+          <mxGeometry y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-102" value="2. LoRA(小规模定制)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-100">
+          <mxGeometry y="70" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-103" value="3. Prefix tuning/Prompt Tuning" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-100">
+          <mxGeometry y="100" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-104" value="4. RL/RLHF" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-100">
+          <mxGeometry y="130" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-105" value="5. 蒸馏" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-100">
+          <mxGeometry y="160" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-106" value="6. S1-test-time scaling" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-100">
+          <mxGeometry y="190" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ion_yS7d4o4E_soSJtq_-46" target="ion_yS7d4o4E_soSJtq_-100">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="260" />
+              <mxPoint x="260" y="360" />
+              <mxPoint x="340" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-109" value="用户体验和交互" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;textShadow=0;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="600" y="410" width="110" height="30" as="geometry">
+            <mxRectangle x="570" y="300" width="140" height="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-110" value="1.&amp;nbsp;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(14, 14, 14); font-family: &amp;quot;.AppleSystemUIFont&amp;quot;; background-color: transparent;&quot;&gt;对话式 vs 非对话式&lt;/span&gt;&lt;span style=&quot;color: rgb(14, 14, 14); font-family: &amp;quot;.AppleSystemUIFont&amp;quot;; background-color: transparent;&quot;&gt;的交互形态和适用场景&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(14, 14, 14); font-family: &amp;quot;.AppleSystemUIFont&amp;quot;; font-size: 14px; background-color: transparent;&quot;&gt;；&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-109">
+          <mxGeometry y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-111" value="2.&amp;nbsp;&lt;font&gt;&lt;span style=&quot;color: rgb(14, 14, 14); font-family: &amp;quot;.AppleSystemUIFont&amp;quot;; background-color: transparent;&quot;&gt;上下文管理&lt;/span&gt;&lt;span style=&quot;color: rgb(14, 14, 14); font-family: &amp;quot;.AppleSystemUIFont&amp;quot;; background-color: transparent;&quot;&gt;和&lt;/span&gt;&lt;span style=&quot;color: rgb(14, 14, 14); font-family: &amp;quot;.AppleSystemUIFont&amp;quot;; background-color: transparent;&quot;&gt;多轮对话一致性&lt;/span&gt;&lt;span style=&quot;color: rgb(14, 14, 14); font-family: &amp;quot;.AppleSystemUIFont&amp;quot;; background-color: transparent;&quot;&gt;；&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-109">
+          <mxGeometry y="70" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-112" value="&lt;font&gt;3.&amp;nbsp;&lt;span style=&quot;color: rgb(14, 14, 14); font-family: &amp;quot;.AppleSystemUIFont&amp;quot;; background-color: transparent;&quot;&gt;可解释性&lt;/span&gt;&lt;span style=&quot;color: rgb(14, 14, 14); font-family: &amp;quot;.AppleSystemUIFont&amp;quot;; background-color: transparent;&quot;&gt;（是否呈现思维链、置信度）和&lt;/span&gt;&lt;span style=&quot;color: rgb(14, 14, 14); font-family: &amp;quot;.AppleSystemUIFont&amp;quot;; background-color: transparent;&quot;&gt;用户反馈&lt;/span&gt;&lt;span style=&quot;color: rgb(14, 14, 14); font-family: &amp;quot;.AppleSystemUIFont&amp;quot;; background-color: transparent;&quot;&gt;（人工协同纠错、评分机制）；&lt;/span&gt;&lt;/font&gt;" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-109">
+          <mxGeometry y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-113" value="&lt;font&gt;4.&amp;nbsp;&lt;span style=&quot;color: rgb(14, 14, 14); font-family: &amp;quot;.AppleSystemUIFont&amp;quot;; background-color: transparent;&quot;&gt;隐私与安全&lt;/span&gt;&lt;span style=&quot;color: rgb(14, 14, 14); font-family: &amp;quot;.AppleSystemUIFont&amp;quot;; background-color: transparent;&quot;&gt;（敏感信息保护、违规内容过滤）&lt;/span&gt;&lt;/font&gt;" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-109">
+          <mxGeometry y="170" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-114" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;.AppleSystemUIFont&amp;quot;; color: rgb(14, 14, 14);&quot; class=&quot;p1&quot;&gt;&lt;font&gt;5.性能与可用性（延迟控制、弹性伸缩）。&lt;/font&gt;&lt;/p&gt;" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ion_yS7d4o4E_soSJtq_-109">
+          <mxGeometry y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ion_yS7d4o4E_soSJtq_-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.034;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ion_yS7d4o4E_soSJtq_-50" target="ion_yS7d4o4E_soSJtq_-109">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="157" y="430" />
+              <mxPoint x="560" y="430" />
+              <mxPoint x="560" y="411" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
