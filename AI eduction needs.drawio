@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.11">
   <diagram name="Page-1" id="FRgtKvkJQuMC_IcCLfbV">
-    <mxGraphModel dx="1198" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="891" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,7 +50,7 @@
           <mxGeometry x="510" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QSQJtoIdxtViV7Ph-10w-11" value="PPT、Word、Others" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QSQJtoIdxtViV7Ph-10w-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QSQJtoIdxtViV7Ph-10w-1" target="QSQJtoIdxtViV7Ph-10w-5">
           <mxGeometry relative="1" as="geometry" />
