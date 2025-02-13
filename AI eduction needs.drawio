@@ -32,7 +32,7 @@
           <mxGeometry x="270" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QSQJtoIdxtViV7Ph-10w-4" value="提示词" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="486" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="486" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QSQJtoIdxtViV7Ph-10w-5" value="评估" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="280" width="120" height="60" as="geometry" />
@@ -47,7 +47,7 @@
           <mxGeometry x="486" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QSQJtoIdxtViV7Ph-10w-10" value="多维度评估" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="486" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="486" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QSQJtoIdxtViV7Ph-10w-11" value="PPT、Word、Others" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="486" y="390" width="120" height="60" as="geometry" />
@@ -65,10 +65,10 @@
           <mxGeometry x="270" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QSQJtoIdxtViV7Ph-10w-21" value="网页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="496" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="486" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QSQJtoIdxtViV7Ph-10w-22" value="APP、小程序等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="496" y="600" width="120" height="60" as="geometry" />
+          <mxGeometry x="486" y="610" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
